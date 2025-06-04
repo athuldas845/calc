@@ -1,0 +1,43 @@
+ body {
+     /*background image */
+     background-image: url("bg.png");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .input {
+     /*for inputing values to display*/
+     width: 75px;
+     height: 75px;
+     font-size: larger;
+     margin-bottom: 4px;
+     border-radius: 1cm;
+     text-align: center;
+     font-size: larger;
+     position: relative;
+ }
+
+ .rectangle {
+     /*calculator body*/
+     align-content: center;
+     width: 375px;
+     height: 675px;
+     background-color: rgb(56, 54, 54);
+     border-radius: 1cm;
+     justify-content: center;
+     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5),
+         -5px -5px 15px rgba(255, 255, 255, 0.1);
+ }
+
+ .fullscreen {
+     width: 330px;
+     height: 160px;
+     background-color: white;
+     margin-bottom: 1cm;
+     border-radius: 0.5cm;
+     position: relative;
+ }
