@@ -14,7 +14,7 @@ function start() {
 function stop() {
     clearinput();
     if (power == 1) {
-        document.res.in_num2.value = "::::::::::::::Bye Sayana::::::::::::::::::::";
+        document.res.in_num2.value = "::::::::::::::Bye::::::::::::::::::::";
         setTimeout(() => {
             document.res.in_num2.value = "";
         }, 2000);
