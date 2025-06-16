@@ -6,46 +6,38 @@
     <link rel="stylesheet" href="style.css">
     <script src="java.js"></script>
 </head>
-
 <body>
     <center>
         <form name="res" class="rectangle">
             <div class="fullscreen">
                 <p><b>></b>
                     <input type="text" name="in_num1" placeholder=""
-                        style="width: 218px; height: 40px;font-size: larger;border: 1cm;margin: 0cm; position: relative;">
-                    <input class="input" type="text" name="sym"
-                        style="width: 40px; height: 40px; font-size: larger;border: 0cm;margin: 0cm; position: relative;">
-                </p>
-                <p><b>></b>
-                    <input type="text" name="in_num2"
-                        style="width: 265px; height: 40px;font-size: larger;border: 1cm;margin: 0cm; position: relative;">
-                </p>
+                        style="width: 265px; height: 70px;font-size: 30px;border: 1cm;margin: 0cm; position: relative;">
                 <p><b>=</b>
                     <input type="text" name="result"
-                        style="width: 265px; height: 40px;font-size: larger;border: 1cm;margin: 0cm; position: relative;">
+                        style="width: 265px; height: 70px;font-size: 30px;border: 1cm;margin: 0cm; position: relative;">
                 </p>
             </div>
             <input class="input" type="button" value="AC" onclick="clearinput()" style="color:orangered">
             <input class="input" type="button" value="ON" onclick="start()" style="color:orangered">
             <input class="input" type="button" value="OFF" onclick="stop()" style="color:orangered">
-            <input class="input" type="button" value="+" onclick="sign('+')" style="color:orangered"><br>
+            <input class="input" type="button" value="+" name="+" onclick="input('+')" style="color:orangered"><br>
             <input class="input" type="button" value="1" name="a" onclick="input('a')">
             <input class="input" type="button" value="2" name="b" onclick="input('b')">
             <input class="input" type="button" value="3" name="c" onclick="input('c')">
-            <input class="input" type="button" value="-" onclick="sign('-')" style="color:orangered"><br>
+            <input class="input" type="button" value="-" name="-" onclick="input('-')" style="color:orangered"><br>
             <input class="input" type="button" value="4" name="d" onclick="input('d')">
             <input class="input" type="button" value="5" name="e" onclick="input('e')">
             <input class="input" type="button" value="6" name="f" onclick="input('f')">
-            <input class="input" type="button" value="x" onclick="sign('x')" style="color:orangered"><br>
+            <input class="input" type="button" value="x" name="x" onclick="input('x')" style="color:orangered"><br>
             <input class="input" type="button" value="7" name="g" onclick="input('g')">
             <input class="input" type="button" value="8" name="h" onclick="input('h')">
             <input class="input" type="button" value="9" name="i" onclick="input('i')">
-            <input class="input" type="button" value="%" onclick="sign('%')" style="color:orangered"><br>
-            <input class="input" type="button" value="Enter" onclick="enter('c')">
+            <input class="input" type="button" value="%" name="%" onclick="input('%')" style="color:orangered"><br>
+            <input class="input" type="button" value="clr" onclick="remove()">
             <input class="input" type="button" value="0" name="j" onclick="input('j')">
             <input class="input" type="button" value="." name="k" onclick="input('k')">
-            <input class="input" type="button" value="=" onclick="output()" style="color:orangered">
+            <input class="input" type="button" value="=" onclick="resultant()" style="color:orangered">
         </form>
     </center>
 
